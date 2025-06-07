@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --color-primary: #c71585; /* Deep Magenta */
+  --color-accent: #1abc9c; /* Electric Teal */
+  --color-soft: #f9f9f9; /* Soft White */
+  --color-char: #333333; /* Charcoal */
+  --color-light: #eeeeee; /* Light Gray */
+
+  /* if you want CSS variables for fonts: */
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-playfair-display: "Merriweather", serif;
+}
+@layer base {
+  /* apply the CSS variable to the whole document */
+  body {
+    font-family: var(--font-open-sans);
+  }
+  /* headings (or .font-serif) */
+  h1,
+  h2,
+  h3,
+  .font-serif {
+    font-family: var(--font-playfair-display);
+  }
+}
+
+@layer utilities {
+  /* your existing helpers */
+  .bg-charcoal {
+    background-color: var(--color-char) !important;
+  }
+  .bg-primary {
+    background-color: var(--color-primary) !important;
+  }
+  .primary {
+    color: var(--color-primary) !important;
+  }
+  .hover\:bg-accent:hover {
+    background-color: var(--color-accent) !important;
+  }
+  .text-accent {
+    color: var(--color-accent) !important;
+  }
+  .text-charcoal {
+    color: var(--color-char) !important;
+  }
+  .bg-soft {
+    background-color: var(--color-soft) !important;
+  }
+  .bg-light {
+    background-color: var(--color-light) !important;
+  }
+
+  /* new: magenta underline color */
+  .decoration-primary {
+    /* only shows if you also use .underline */
+    text-decoration-color: var(--color-primary) !important;
+  }
+
+  /* optional: font utilities */
+  .font-sans {
+    font-family: var(--font-open-sans) !important;
+  }
+  .font-serif {
+    font-family: var(--font-playfair-display) !important;
+  }
+}

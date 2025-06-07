@@ -8,14 +8,14 @@ const Footer = () => {
         <p className="text-center">
           &copy; {new Date().getFullYear()} Samuelames.com |{" "}
           <span className="text-sm">
-            For business enquiries please use the{" "}
+            For business enquiries please{" "}
             <Link
               href="/contact"
               className="hover:text-blue-500 underline cursor-pointer"
             >
-              contact
-            </Link>{" "}
-            form.
+              contact me
+            </Link>
+            .
           </span>
         </p>
       </div>

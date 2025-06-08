@@ -17,7 +17,7 @@ export default async function Home() {
 
   return (
     <div className=" mx-auto">
-      <section className="relative bg-light py-32 text-center overflow-hidden mt-10">
+      <section className="relative bg-light py-32 px-5 text-center overflow-hidden mt-10">
         <Image
           className="absolute inset-0 w-full h-full object-cover z-0"
           src="/grass.avif"
@@ -52,13 +52,27 @@ export default async function Home() {
           </span>
           ut Me
         </h2>
-        <p className="text-lg leading-relaxed">
-          I am a Software Developer with a BSc in Computer Science. I
-          collaborate closely with designers to deliver bespoke web solutions.
-          Whether you need a streamlined landing page or a fully featured
-          application, I have the expertise to realise your vision. Contact me
-          to discuss your project.
-        </p>
+        <div className="flex flex-col sm:flex-row items-center gap-8 mt-8 w-full">
+          <Image
+            src={me}
+            alt="Samuel Ames"
+            className="rounded-full w-48 h-48 object-cover shadow-lg"
+            width={192}
+            height={192}
+          />
+          <div className="max-w-2xl">
+            <h3 className="text-xl text-charcoal font-semibold mb-4">
+              Samuel Ames
+            </h3>
+            <p className="text-lg text-charcoal/80 flex-1">
+              I am a Software Developer with a BSc in Computer Science. I
+              collaborate closely with designers to deliver bespoke web
+              solutions. Whether you need a streamlined landing page or a fully
+              featured application, I have the expertise to realise your vision.
+              Contact me to discuss your project.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section className="py-24 px-6 bg-softwhite max-w-6xl mx-auto">

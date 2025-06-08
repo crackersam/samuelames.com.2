@@ -20,7 +20,7 @@ export default async function Home() {
       <section className="relative bg-light py-32 px-5 text-center overflow-hidden mt-10">
         <Image
           className="absolute inset-0 w-full h-full object-cover z-0"
-          src="/grass.avif"
+          src="/code.avif"
           alt="Eastbourne"
           width={1024}
           height={768}
@@ -98,32 +98,36 @@ export default async function Home() {
               <h3 className="text-xl font-semibold p-4">Lecture the Planet</h3>
             </div>
           </Link>
-          <div
-            className="bg-white border-t-4 border-[var(--color-accent)] rounded-lg overflow-hidden shadow-lg
+          <Link href="/tutacall">
+            <div
+              className="bg-white border-t-4 border-[var(--color-accent)] rounded-lg overflow-hidden shadow-lg
                   hover:shadow-2xl transform hover:-translate-y-1 transition"
-          >
-            <Image
-              src="/portfolio2.png"
-              height={300}
-              width={300}
-              alt="Tutacall"
-              className="object-top object-cover h-[300px] w-full"
-            />
-            <h3 className="text-xl font-semibold p-4">Tutacall</h3>
-          </div>
-          <div
-            className="bg-white border-t-4 border-[var(--color-accent)] rounded-lg overflow-hidden shadow-lg
+            >
+              <Image
+                src="/portfolio2.png"
+                height={300}
+                width={300}
+                alt="Tutacall"
+                className="object-top object-cover h-[300px] w-full"
+              />
+              <h3 className="text-xl font-semibold p-4">Tutacall</h3>
+            </div>
+          </Link>
+          <Link href="/ai-interview-coach">
+            <div
+              className="bg-white border-t-4 border-[var(--color-accent)] rounded-lg overflow-hidden shadow-lg
                   hover:shadow-2xl transform hover:-translate-y-1 transition"
-          >
-            <Image
-              src="/portfolio3.png"
-              alt="AI Interview Coach"
-              width={300}
-              height={300}
-              className="object-top object-cover h-[300px] w-full"
-            />
-            <h3 className="text-xl font-semibold p-4">AI Interview Coach</h3>
-          </div>
+            >
+              <Image
+                src="/portfolio3.png"
+                alt="AI Interview Coach"
+                width={300}
+                height={300}
+                className="object-top object-cover h-[300px] w-full"
+              />
+              <h3 className="text-xl font-semibold p-4">AI Interview Coach</h3>
+            </div>
+          </Link>
         </div>
       </section>
     </div>

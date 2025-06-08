@@ -1,8 +1,12 @@
+import { getTutacallText } from "@/lib/api";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Tutacall = () => {
+export const revalidate = 300; // Revalidate at most every 5 minutes
+const Tutacall = async () => {
+  const tutacallText = await getTutacallText();
+
   return (
     <div className="max-w-6xl mx-auto w-fit flex gap-4 flex-wrap sm:flex-nowrap justify-center items-center py-24 px-6 bg-softwhite">
       <div className="">
@@ -12,14 +16,7 @@ const Tutacall = () => {
           </span>
           acall
         </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Tutacall is a platform that connects students with tutors for
-          personalized learning experiences. It offers a wide range of subjects
-          and flexible scheduling options to help students achieve their
-          academic goals. The platform features video calls, interactive
-          whiteboards, and real-time collaboration tools to enhance the learning
-          process.
-        </p>
+        <p className="text-lg text-gray-700 mb-6">{tutacallText.data.Body}</p>
       </div>
       <Link href="https://tutacall.com" target="_blank" className="shrink-0">
         <div

@@ -1,8 +1,12 @@
+import { getAiInterviewCoachText } from "@/lib/api";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const AiInterviewCoach = () => {
+export const revalidate = 300; // Revalidate at most every 5 minutes
+
+const AiInterviewCoach = async () => {
+  const aiInterviewCoachText = await getAiInterviewCoachText();
   return (
     <div className="max-w-6xl mx-auto w-fit flex gap-4 flex-wrap sm:flex-nowrap justify-center items-center py-24 px-6 bg-softwhite">
       <div className="">

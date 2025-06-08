@@ -59,9 +59,27 @@ const Page = () => {
   }
 
   return (
-    <div className=" my-8 w-full max-w-3xl mx-auto p-4">
+    <div className="max-w-6xl mx-auto w-fit flex gap-4 flex-wrap sm:flex-nowrap justify-center items-center py-24 px-6 bg-softwhite">
+      <div className="w-lg">
+        <h2 className="font-serif font-bold text-3xl mb-8 inline-block border-primary pb-2">
+          <span className="underline decoration-primary underline-offset-4 decoration-3 text-black">
+            Lec
+          </span>
+          ture the Planet
+        </h2>
+        <p className="text-lg text-gray-700 mb-6">
+          Contact me to discuss your project. I am always open to new
+          opportunities and collaborations. Whether you have a question, want to
+          work together, or just want to say hello, feel free to reach out. I
+          will get back to you as soon as possible.
+        </p>
+      </div>
+
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="space-y-8 w-full"
+        >
           <FormField
             control={form.control}
             name="name"

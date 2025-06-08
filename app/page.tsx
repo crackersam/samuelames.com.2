@@ -1,20 +1,8 @@
-import {
-  getAiInterviewCoachText,
-  getHeroText,
-  getLecturetheplanetText,
-  getTutacallText,
-} from "@/lib/api";
 import me from "@/public/me.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
-export const revalidate = 300; // Revalidate at most every 5 minutes
 export default async function Home() {
-  const heroText = await getHeroText();
-  const tutacallText = await getTutacallText();
-  const lecturetheplanetText = await getLecturetheplanetText();
-  const aiInterviewCoachText = await getAiInterviewCoachText();
-
   return (
     <div className=" mx-auto">
       <section className="relative bg-light py-32 px-5 text-center overflow-hidden mt-10">

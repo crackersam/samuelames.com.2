@@ -69,7 +69,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="py-24 px-6 bg-softwhite max-w-6xl mx-auto">
+      <section className="pb-24 px-6 bg-softwhite max-w-6xl mx-auto">
         <h2 className="font-serif font-bold text-3xl mb-8 inline-block border-primary pb-2">
           <span className="underline decoration-primary underline-offset-4 decoration-3 text-black">
             Pas

@@ -17,10 +17,7 @@ const AiInterviewCoach = async () => {
           nterview Coach
         </h2>
         <p className="text-lg text-gray-700 mb-6">
-          AI Interview Coach is a cutting-edge platform designed to help job
-          seekers prepare for interviews using artificial intelligence. It
-          offers mock interviews and feedback to enhance interview skills and
-          boost confidence.
+          {aiInterviewCoachText.data.Body}
         </p>
       </div>
       <Link href="#" target="_blank" className="shrink-0">

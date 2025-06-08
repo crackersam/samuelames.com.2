@@ -56,8 +56,14 @@ export default async function Home() {
               I am a Software Developer with a BSc in Computer Science. I
               collaborate closely with designers to deliver bespoke web
               solutions. Whether you need a streamlined landing page or a fully
-              featured application, I have the expertise to realise your vision.
-              Contact me to discuss your project.
+              featured application, I have the expertise to realise your vision.{" "}
+              <Link
+                href="/contact"
+                className="text-[var(--color-primary)] hover:underline"
+              >
+                Contact me
+              </Link>{" "}
+              to discuss your project.
             </p>
           </div>
         </div>

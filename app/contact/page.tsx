@@ -63,15 +63,14 @@ const Page = () => {
       <div className="max-w-6xl flex-1">
         <h2 className="font-serif font-bold text-3xl mb-8 inline-block border-primary pb-2">
           <span className="underline decoration-primary underline-offset-4 decoration-3 text-black">
-            Lec
+            Con
           </span>
-          ture the Planet
+          tact Me
         </h2>
         <p className="text-lg text-gray-700 mb-6 max-w-lg">
-          Contact me to discuss your project. I am always open to new
-          opportunities and collaborations. Whether you have a question, want to
-          work together, or just want to say hello, feel free to reach out. I
-          will get back to you as soon as possible.
+          Whether you have a question, want to work together, or just want to
+          say hello, feel free to reach out. I will get back to you as soon as
+          possible.
         </p>
       </div>
 

@@ -54,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${openSans.variable} ${playfairDisplay.variable} antialiased flex bg-[var(--color-light)] flex-col min-h-screen`}
       >

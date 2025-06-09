@@ -5,7 +5,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className="bg-charcoal text-white">
-      <div className="flex items-center justify-between p-4 mx-auto max-w-7xl">
+      <div className="flex items-center sm:flex-nowrap flex-wrap justify-center gap-3 sm:justify-between p-4 mx-auto max-w-7xl">
         <Link href="/">
           <Image
             src={"/sa.logo.png"}
@@ -17,9 +17,23 @@ const Header = () => {
         </Link>
         <nav className="flex space-x-4">
           <Link
+            href="/#about"
+            className="bg-[var(--color-primary)] py-3 px-4 hover:bg-[var(--color-accent)] rounded-lg 
+                       transition-all transform hover:-translate-y-1"
+          >
+            About Me
+          </Link>
+          <Link
+            href="/#portfolio"
+            className="bg-[var(--color-primary)] py-3 px-4 hover:bg-[var(--color-accent)] rounded-lg 
+                       transition-all transform hover:-translate-y-1"
+          >
+            Portfolio
+          </Link>
+          <Link
             href="/contact"
             className="bg-[var(--color-primary)] py-3 px-4 hover:bg-[var(--color-accent)] rounded-lg 
-            transition-all transform hover:-translate-y-1"
+                       transition-all transform hover:-translate-y-1"
           >
             Contact
           </Link>

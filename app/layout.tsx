@@ -58,10 +58,12 @@ export default function RootLayout({
       <body
         className={`${openSans.variable} ${playfairDisplay.variable} antialiased flex bg-[var(--color-light)] flex-col min-h-screen`}
       >
-        <Header />
-        <div className="grow-1">{children}</div>
-        <Toaster position="top-center" richColors theme="light" />
-        <Footer />
+        <div className="border-x-8 border-[var(--color-char)] ">
+          <Header />
+          <div className="grow-1">{children}</div>
+          <Toaster position="top-center" richColors theme="light" />
+          <Footer />
+        </div>
       </body>
     </html>
   );

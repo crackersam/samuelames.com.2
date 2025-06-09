@@ -53,10 +53,11 @@ export default async function Home() {
               Samuel Ames
             </h3>
             <p className="text-lg text-charcoal/80 flex-1">
-              I am a Software Developer with a BSc in Computer Science. I
-              collaborate closely with designers to deliver bespoke web
-              solutions. Whether you need a streamlined landing page or a fully
-              featured application, I have the expertise to realise your vision.{" "}
+              I am a freelance full-stack Developer with a BSc in Computer
+              Science. I collaborate closely with designers to deliver bespoke
+              web solutions. Whether you need a streamlined landing page or a
+              fully featured application, I have the expertise to realise your
+              vision.{" "}
               <Link
                 href="/contact"
                 className="text-[var(--color-primary)] hover:underline"

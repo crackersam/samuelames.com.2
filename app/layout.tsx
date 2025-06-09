@@ -58,9 +58,11 @@ export default function RootLayout({
       <body
         className={`${openSans.variable} ${playfairDisplay.variable} antialiased bg-[var(--color-light)]`}
       >
-        <div className="border-x-8 border-[var(--color-char)] flex flex-col min-h-screen">
+        <div className="border-x-8 border-[var(--color-char)] flex-1 flex flex-col min-h-screen">
           <Header />
-          <div className="grow-1 flex justify-center ">{children}</div>
+          <div className="grow-1 flex justify-center items-center">
+            {children}
+          </div>
           <Toaster position="top-center" richColors theme="light" />
           <Footer />
         </div>

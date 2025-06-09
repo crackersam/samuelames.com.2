@@ -59,8 +59,8 @@ const Page = () => {
   }
 
   return (
-    <div className="max-w-6xl mx-auto flex gap-4 flex-wrap sm:flex-nowrap justify-center items-center py-24 px-6 bg-softwhite">
-      <div className="max-w-6xl flex-1">
+    <div className="max-w-6xl w-full mx-auto flex gap-4 flex-wrap sm:flex-nowrap justify-center items-center py-24 px-6 bg-softwhite">
+      <div className="max-w-6xl w-full flex-1">
         <h2 className="font-serif font-bold text-3xl mb-8 inline-block border-primary pb-2">
           <span className="underline decoration-primary underline-offset-4 decoration-3 text-black">
             Con

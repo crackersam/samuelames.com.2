@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default async function Home() {
   return (
-    <div className=" mx-auto">
+    <div className="w-full mx-auto">
       <section className="relative bg-light py-32 px-5 text-center overflow-hidden mt-10">
         <Image
           className="absolute inset-0 w-full h-full object-cover z-0"

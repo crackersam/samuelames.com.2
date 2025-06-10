@@ -20,7 +20,11 @@ const AiInterviewCoach = async () => {
           {aiInterviewCoachText.data.Body}
         </p>
       </div>
-      <Link href="#" target="_blank" className="shrink-0">
+      <Link
+        href="https://www.intervoo.me/interview"
+        target="_blank"
+        className="shrink-0"
+      >
         <div
           className="bg-white border-t-4 border-[var(--color-accent)] rounded-lg overflow-hidden shadow-lg
                         hover:shadow-2xl transform hover:-translate-y-1 transition shrink-0"

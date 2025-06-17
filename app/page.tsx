@@ -125,6 +125,21 @@ export default async function Home() {
               />
               <h3 className="text-xl font-semibold p-4">AI Interview Coach</h3>
             </div>
+          </Link>{" "}
+          <Link href="/betterpress">
+            <div
+              className="bg-white border-t-4 border-[var(--color-accent)] rounded-lg overflow-hidden shadow-lg
+                  hover:shadow-2xl transform hover:-translate-y-1 transition"
+            >
+              <Image
+                src="/portfolio4.png"
+                alt="BetterPress"
+                width={300}
+                height={300}
+                className="object-top object-cover h-[300px] w-full"
+              />
+              <h3 className="text-xl font-semibold p-4">Betterpress</h3>
+            </div>
           </Link>
         </div>
       </section>

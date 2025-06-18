@@ -53,10 +53,11 @@ export default async function Home() {
               Samuel Ames
             </h3>
             <p className="text-lg text-charcoal/80">
-              I am a freelance web developer with a BSc in Computer Science. I
-              specialise in Node.js, Next.js and Strapi, partnering with clients
-              to deliver high-performance websites that are both visually
-              engaging and simple to manage.
+              I am a freelance web developer with a BSc in Computer Science,
+              based in the U.K. Close to Brighton and London. I specialise in
+              Node.js, Next.js and Strapi, partnering with you to deliver
+              high-performance websites that are both visually engaging and
+              simple to manage.
             </p>
             <p className="mt-4 text-lg text-charcoal/80">
               <strong>Advantages of Next.js + Strapi:</strong>

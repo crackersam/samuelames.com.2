@@ -17,7 +17,7 @@ const Betterpress = async () => {
         <p className="text-lg text-gray-700 mb-6">
           Betterpress Is a blogging platform designed to be better for page load
           speeds, security and search engine optimisation, then alternatives. It
-          is built using Strapi Content management system and Next.js.
+          is built using Strapi content management system and Next.js.
         </p>
       </div>
       <Link

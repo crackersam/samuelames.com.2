@@ -52,19 +52,52 @@ export default async function Home() {
             <h3 className="text-xl text-charcoal font-semibold mb-4">
               Samuel Ames
             </h3>
-            <p className="text-lg text-charcoal/80 flex-1">
-              I am a freelance full-stack Developer with a BSc in Computer
-              Science. I collaborate closely with designers to deliver bespoke
-              web solutions. Whether you need a streamlined landing page or a
-              fully featured application, I have the expertise to realise your
-              vision.{" "}
+            <p className="text-lg text-charcoal/80">
+              I am a freelance web developer with a BSc in Computer Science. I
+              specialise in Node.js, Next.js and Strapi, partnering with clients
+              to deliver high-performance websites that are both visually
+              engaging and simple to manage.
+            </p>
+            <p className="mt-4 text-lg text-charcoal/80">
+              <strong>Advantages of Next.js + Strapi:</strong>
+              <br />
+              Lightning-fast load times, an intuitive content management
+              interface and enterprise-grade reliability—allowing you to focus
+              on strategic growth rather than technical maintenance.
+            </p>
+            <ul className="list-disc pl-5 mt-4 space-y-2 text-lg text-charcoal/80">
+              <li>
+                <strong>Tailored design:</strong> A bespoke layout and
+                brand-aligned styling to make your website stand out.
+              </li>
+              <li>
+                <strong>Optimised performance:</strong> Instantaneous page
+                rendering and robust uptime keep user engagement high.
+              </li>
+              <li>
+                <strong>Self-serve content updates:</strong> Easily add or
+                modify text, images and pages through Strapi’s user-friendly
+                dashboard—no developer required.
+              </li>
+              <li>
+                <strong>SEO advantages:</strong> Built-in server-side rendering
+                and customisable metadata ensure your site ranks highly in
+                search results.
+              </li>
+              <li>
+                <strong>Comprehensive hosting & maintenance:</strong> End-to-end
+                setup and ongoing support ensure maximum security and
+                reliability.
+              </li>
+            </ul>
+            <p className="mt-4 text-lg">
+              Let’s transform your digital presence.{" "}
               <Link
                 href="/contact"
                 className="text-[var(--color-primary)] hover:underline"
               >
-                Contact me
-              </Link>{" "}
-              to discuss your project.
+                Contact me →
+              </Link>
             </p>
           </div>
         </div>

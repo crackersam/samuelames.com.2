@@ -20,15 +20,15 @@ export const metadata: Metadata = {
   description:
     "Freelance Full-Stack Developer based on the coast (near London and Brighton) in the UK",
   keywords: [
-    "freelance software engineer UK",
+    "freelance web developer UK",
     "freelance web developer London",
     "freelance web developer UK",
-    "web developer UK",
-    "full stack developer Brighton",
-    "full stack developer London",
-    "full stack developer UK",
-    "freelance full stack developer",
-    "Next.js developer UK",
+    "fullstack",
+    "next.js developer",
+    "freelance developer",
+    "fullstack developer",
+    "freelance web developer",
+    "website developer",
     "Sam ames",
   ],
 

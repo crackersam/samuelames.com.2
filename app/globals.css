@@ -2,11 +2,13 @@
 @import "tw-animate-css";
 
 :root {
-  --color-primary: #c71585; /* Deep Magenta */
-  --color-accent: #1abc9c; /* Electric Teal */
+  --color-primary: #0891b2; /* Vibrant Cyan */
+  --color-accent: #f97316; /* Energetic Orange */
   --color-soft: #f9f9f9; /* Soft White */
-  --color-char: #333333; /* Charcoal */
-  --color-light: #eeeeee; /* Light Gray */
+  --color-char: #1e293b; /* Slate */
+  --color-light: #f1f5f9; /* Light Slate */
+  --color-navy: #0f172a; /* Deep Navy */
+  --color-dark-blue: #1e40af; /* Royal Blue */
 
   /* if you want CSS variables for fonts: */
   --font-open-sans: "Open Sans", sans-serif;

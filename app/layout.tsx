@@ -56,9 +56,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${openSans.variable} ${playfairDisplay.variable} antialiased bg-[var(--color-light)]`}
+        className={`${openSans.variable} ${playfairDisplay.variable} antialiased bg-white`}
       >
-        <div className="border-x-8 border-[var(--color-char)] flex-1 flex flex-col min-h-screen">
+        <div className="flex-1 flex flex-col min-h-screen">
           <Header />
           <div className="grow-1 flex justify-center items-center">
             {children}

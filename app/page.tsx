@@ -73,8 +73,8 @@ export default async function Home() {
                 <span className="text-2xl">🚧</span> Currently Unavailable
               </h4>
               <p className="text-gray-700 leading-relaxed">
-                I'm currently fully committed to building <a href="https://roomz.live" target="_blank" rel="noopener noreferrer" className="font-bold text-orange-600 hover:text-orange-700 underline">roomz.live</a>, 
-                an innovative platform that's taking all of my development time. I'm not taking on new client projects at the moment.
+                I&apos;m currently fully committed to building <a href="https://roomz.live" target="_blank" rel="noopener noreferrer" className="font-bold text-orange-600 hover:text-orange-700 underline">roomz.live</a>, 
+                an innovative platform that&apos;s taking all of my development time. I&apos;m not taking on new client projects at the moment.
               </p>
             </div>
             
@@ -131,7 +131,7 @@ export default async function Home() {
                 Interested in working together in the future?
               </p>
               <p className="text-sm text-gray-200 mb-4">
-                While I'm currently focused on roomz.live, feel free to reach out for future opportunities.
+                While I&apos;m currently focused on roomz.live, feel free to reach out for future opportunities.
               </p>
               <Link
                 href="/contact"
@@ -154,7 +154,7 @@ export default async function Home() {
               <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-full"></div>
             </h2>
             <p className="text-gray-600 mt-6 max-w-2xl mx-auto">
-              Explore some of the projects I've delivered for clients, from e-learning platforms to SaaS solutions.
+              Explore some of the projects I&apos;ve delivered for clients, from e-learning platforms to SaaS solutions.
             </p>
           </div>
           
